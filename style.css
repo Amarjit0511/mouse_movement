@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: clearInterval;
+    height: 100vh;
+    align-items: clearInterval;
+    background-color: aquamarine;
+    font-family :'Times New Roman', Times, serif;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+}
+
+.mouse-movement {
+    border: solid 2px red;
+    margin: 40px;
+    min-width: 20px;
+    position: relative;
+}
+
+@media (max-width: 500px) {
+    .container{
+        flex-direction:column;
+    }
+}
+
+.mouse-movement h4 {
+    position: absolute;
+}
